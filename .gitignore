@@ -35,3 +35,4 @@ msbuild.wrn
 *.vsidx
 *.vsidx
 *.cache
+/.vs/slnx.sqlite
