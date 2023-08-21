@@ -36,3 +36,4 @@ msbuild.wrn
 *.vsidx
 *.cache
 /.vs/slnx.sqlite
+/.vs/class-projects/v17/.wsuo
