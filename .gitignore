@@ -2,9 +2,36 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/class-projects/FileContentIndex/e97ef7e5-e94e-452b-823a-7b0864834825.vsidx
-/.vs/class-projects/FileContentIndex/8e0ecf1b-f188-42e3-94c1-8a5316257b97.vsidx
-/.vs/class-projects/FileContentIndex/62ab38a8-0c0b-4de9-8de5-d98f5da0125c.vsidx
-/.vs/class-projects/FileContentIndex/23cde43d-5e63-47e0-8c7f-3597e9851ca5.vsidx
-/.vs/class-projects/FileContentIndex/1e9ad3f7-a03b-419c-a8c1-58a7e9a31e41.vsidx
-/.vs/slnx.sqlite
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/

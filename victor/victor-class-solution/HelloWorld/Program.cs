@@ -138,9 +138,9 @@ void StringDemo()
         System.Console.Write(s5[s5.Length - i - 1]);
     }
 
-    foreach (var item in s5.Reverse())
+    foreach (var aChar in s5.Reverse())
     {
-        Console.WriteLine( item );
+        Console.Write(aChar);
     }
 }
 
