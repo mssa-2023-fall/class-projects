@@ -1,0 +1,15 @@
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+C:\Users\Xavier\Desktop\MSSA NOTES\Victor\Github_Examples\xavier\xavier-class-solution\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
