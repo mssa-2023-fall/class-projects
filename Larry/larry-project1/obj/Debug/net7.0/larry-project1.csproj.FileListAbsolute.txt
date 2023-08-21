@@ -1,0 +1,14 @@
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\bin\Debug\net7.0\larry-project1.exe
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\bin\Debug\net7.0\larry-project1.deps.json
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\bin\Debug\net7.0\larry-project1.runtimeconfig.json
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\bin\Debug\net7.0\larry-project1.dll
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\bin\Debug\net7.0\larry-project1.pdb
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.AssemblyInfoInputs.cache
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.AssemblyInfo.cs
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.csproj.CoreCompileInputs.cache
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.dll
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\refint\larry-project1.dll
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.pdb
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\larry-project1.genruntimeconfig.cache
+C:\Users\lol4l\source\repos\class-projects\Larry\larry-project1\obj\Debug\net7.0\ref\larry-project1.dll
