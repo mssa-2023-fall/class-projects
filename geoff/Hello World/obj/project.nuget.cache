@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bkKXuYllnEf60edw+Yfzfv0tuGASjco4Z+k8gNNSsvcMzs1d+TAyaU9fmE5u8mYR0mGEPq37USMgIR93uvpRyA==",
+  "dgSpecHash": "kIoeCRuM8Fsi5j6XY3MB8hGN7Y1t6J+3OjqEN/BLNP3f+6kgHhXO+ryIpTK2jX+oZAVP8c2vFNEmzpAFuQvg6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\geoff\\Source\\Repos\\class-projects\\geoff\\Hello World\\Hello World.csproj",
+  "projectFilePath": "C:\\Source\\Repos\\class-projects\\geoff\\Hello World\\Hello World.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
