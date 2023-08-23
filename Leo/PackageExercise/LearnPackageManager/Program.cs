@@ -1,7 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
+//using LearnPackageManager;
+using System.Text;
 using TexasHoldem.Logic.Cards;
 using TexasHoldem.Logic.Helpers;
 
+
+//Temperature t1 = new Temperature(72);
+/*
 string flush = firstTry();
 int tries = 1;
 while (flush != "StraightFlush")
@@ -10,6 +15,7 @@ while (flush != "StraightFlush")
     tries++;
 }
 Console.WriteLine($"Only took {tries} tries!");
+*/
 static string firstTry()
 {
     Deck aDeck = new Deck(); //CTR + . allows for intell-essence to offer solution
