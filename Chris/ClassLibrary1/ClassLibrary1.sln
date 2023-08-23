@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{68D8DA61-65EF-4C7E-89CC-C312E242659B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "..\chriss-class-solution\HelloWorld\HelloWorld.csproj", "{0971BEF4-A853-4AC2-A2EE-4107FF1F52A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0202CE30-0685-4A58-8669-50F97E06F1D0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D8DA61-65EF-4C7E-89CC-C312E242659B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D8DA61-65EF-4C7E-89CC-C312E242659B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D8DA61-65EF-4C7E-89CC-C312E242659B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D8DA61-65EF-4C7E-89CC-C312E242659B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0971BEF4-A853-4AC2-A2EE-4107FF1F52A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0971BEF4-A853-4AC2-A2EE-4107FF1F52A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0971BEF4-A853-4AC2-A2EE-4107FF1F52A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0971BEF4-A853-4AC2-A2EE-4107FF1F52A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32917712-65EA-4DEA-B286-CD1E8DC442D1}
+	EndGlobalSection
+EndGlobal

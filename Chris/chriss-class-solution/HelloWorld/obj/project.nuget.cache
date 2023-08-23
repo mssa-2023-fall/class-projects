@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q5sIR6suUNHgbOz859qyADpaN0kF6it0hl4dqxVtjvHpRP+JCsd4d4oI98JupxBLys0yQPFHuChQgjpy8v7agA==",
+  "dgSpecHash": "lpcuRBG/byIoOZCelUxs5oGvsdzulYEUr+C/QnNLZaXHB9wJbn2I3c33TSpJnup9t63d7UlcStQoj8YiwhzEag==",
   "success": true,
   "projectFilePath": "C:\\Users\\crodr\\source\\repos\\class-projects\\Chris\\chriss-class-solution\\HelloWorld\\HelloWorld.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\crodr\\.nuget\\packages\\texasholdemgameengine\\2.0.0\\texasholdemgameengine.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
