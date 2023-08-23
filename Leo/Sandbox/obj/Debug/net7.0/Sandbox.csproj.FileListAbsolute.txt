@@ -1,0 +1,14 @@
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\bin\Debug\net7.0\Sandbox.exe
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\bin\Debug\net7.0\Sandbox.deps.json
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\bin\Debug\net7.0\Sandbox.runtimeconfig.json
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\bin\Debug\net7.0\Sandbox.dll
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\bin\Debug\net7.0\Sandbox.pdb
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.AssemblyInfoInputs.cache
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.AssemblyInfo.cs
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.dll
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\refint\Sandbox.dll
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.pdb
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\Sandbox.genruntimeconfig.cache
+C:\Users\Leona\Source\Repos\mssa-2023-fall\class-projects\Leo\Sandbox\obj\Debug\net7.0\ref\Sandbox.dll
