@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ben Azure\\source\\repos\\class-projects\\benazuresolution\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\Ben Azure\\OneDrive\\Documents\\GitHub\\class-projects\\benazuresolution\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\Ben Azure\\source\\repos\\class-projects\\benazuresolution\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\Ben Azure\\OneDrive\\Documents\\GitHub\\class-projects\\benazuresolution\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\Ben Azure\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ben Azure\\source\\repos\\class-projects\\benazuresolution\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\Ben Azure\\OneDrive\\Documents\\GitHub\\class-projects\\benazuresolution\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ben Azure\\AppData\\Roaming\\NuGet\\NuGet.Config",
