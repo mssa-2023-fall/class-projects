@@ -1,0 +1,17 @@
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\bin\Debug\net6.0\LearnPackageManager.exe
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\bin\Debug\net6.0\LearnPackageManager.deps.json
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\bin\Debug\net6.0\LearnPackageManager.runtimeconfig.json
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\bin\Debug\net6.0\LearnPackageManager.dll
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\bin\Debug\net6.0\LearnPackageManager.pdb
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\bin\Debug\net6.0\TexasHoldem.Logic.dll
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.csproj.AssemblyReference.cache
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.AssemblyInfoInputs.cache
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.AssemblyInfo.cs
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.csproj.CoreCompileInputs.cache
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.csproj.CopyComplete
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.dll
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\refint\LearnPackageManager.dll
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.pdb
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\LearnPackageManager.genruntimeconfig.cache
+C:\Source\Repos\class-projects\geoff\PackageExercise\LearnPackageManager\obj\Debug\net6.0\ref\LearnPackageManager.dll

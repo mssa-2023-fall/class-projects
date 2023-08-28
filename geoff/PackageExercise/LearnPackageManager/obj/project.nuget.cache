@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I7DtHFgDXtDIENBiQqwzUqSyz12ZtSxUGceFblfNNErIE7UxEVNUqoqaZuxzzRNXRr9T7pqEWUei8HVvJvcglg==",
+  "success": true,
+  "projectFilePath": "C:\\Source\\Repos\\class-projects\\geoff\\PackageExercise\\LearnPackageManager\\LearnPackageManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\geoff\\.nuget\\packages\\texasholdemgameengine\\2.0.0\\texasholdemgameengine.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
