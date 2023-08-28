@@ -1,4 +1,4 @@
-﻿using Smart_File;
+﻿using SmartFiles;
 using System;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
