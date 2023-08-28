@@ -9,7 +9,7 @@ namespace ASync_Await
 
     public class WeekendTasks
     {
-        public string[] AllFiles = Directory.GetFiles(@"c:\users\lol4l\source\repos\class-projects\SampleText\");
+        public string[] AllFiles = Directory.GetFiles(@"C:\Users\lol4l\source\repos\class-projects\Larry\larry-project2\larry-learn-async\SampleText\");
 
 
         public void WeekendTasks1()
