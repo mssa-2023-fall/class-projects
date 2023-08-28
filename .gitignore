@@ -37,3 +37,4 @@ msbuild.wrn
 *.cache
 /.vs/slnx.sqlite
 /.vs/class-projects/v17/.wsuo
+/.vs/VSWorkspaceState.json
