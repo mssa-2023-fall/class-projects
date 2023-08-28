@@ -16,9 +16,11 @@ for (int i = 0; i < 100; i++)
     {
         //4-Call the GetHashStringAsync() from the SmartFile instance we constructed from file path
         SmartFile temp = new SmartFile(file);
-        Task.WhenAny(temp.GetHashStringAsync());
-        //Task<string> task = temp.GetHashStringAsync();
-        //listOfComputeHashTask.Add(task);
+        //Task.WhenAny(temp.GetHashStringAsync());
+        //capture the task of getting the hash string as type task<string>
+        //then add that task to the task list to so its not blocked at one call
+        Task<string> task = temp.GetHashStringAsync();
+        listOfComputeHashTask.Add(task);
     }
 }
 Task.WhenAll(listOfComputeHashTask.ToArray());
