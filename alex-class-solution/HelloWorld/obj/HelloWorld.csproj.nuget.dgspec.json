@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleja_a1mv85h\\Source\\Repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\aleja_a1mv85h\\source\\repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleja_a1mv85h\\Source\\Repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\aleja_a1mv85h\\source\\repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja_a1mv85h\\Source\\Repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\aleja_a1mv85h\\source\\repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\aleja_a1mv85h\\Source\\Repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\aleja_a1mv85h\\source\\repos\\class-projects\\alex-class-solution\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\aleja_a1mv85h\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\aleja_a1mv85h\\source\\repos\\class-projects\\alex-class-solution\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
