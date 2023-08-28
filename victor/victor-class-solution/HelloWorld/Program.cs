@@ -1,4 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
+using System.Security.Cryptography;
+using System.Xml.Linq;
+
 Console.WriteLine("Hello, World!");
 //int age = 50;
 Console.WriteLine($"int: {int.MaxValue},{int.MinValue}");
@@ -20,7 +24,62 @@ d1.A();
 Console.WriteLine(s1==s2);
 Console.WriteLine(d1==d2);
 
-StringDemo();
+//StringDemo();
+//InterfaceDemo();
+OperatorDemo();
+
+
+
+void OperatorDemo()
+{
+    //using % operator to label even or odd numbers;
+    for (int i = 1; i <= 100; i++)
+    {
+        var result = (i % 2 == 0) ? "even" : "odd";
+        Console.WriteLine($"{i} - {result}");
+    }
+    Console.WriteLine(GetIntBinaryString(100));
+    Console.WriteLine(Convert.ToString(100, 2).PadLeft(32,'0'));
+    Console.WriteLine(Convert.ToString(15, 16).PadLeft(32, '0'));
+    //for (int i=1; i <= 100; i++)
+    //{
+    //    Console.WriteLine($"{i} - {((i % 2 == 0) ? "even" : "odd")}");
+    //}
+}
+static string GetIntBinaryString(int n)//n=75
+{
+    char[] b = new char[32];
+    int pos = 31;
+    int i = 0;
+
+    while (i < 32)
+    {
+        if ((n & (1 << i)) != 0) //0100 1011 & 0000 0001 - first loop
+        {                       // 0100 1011 & 0000 0010 - 0000 0010 
+            b[pos] = '1';
+        }
+        else
+        {
+            b[pos] = '0';
+        }
+        pos--;
+        i++;
+    }
+    return new string(b);
+}
+void InterfaceDemo()
+{
+
+    //int x = 20; int y = 10;
+    //Console.WriteLine(x.CompareTo(y)); ;
+    Person[] ppl = {
+        new Person { Age = 30,Name="Bob" },
+        new Person { Age = 35, Name = "Tom" },
+        new Person { Age = 45, Name = "Alice" }
+        };
+
+    Array.Sort(ppl);
+}
 
 void StringDemo()
 {
@@ -136,12 +195,47 @@ void StringDemo()
     for (int i = 0; i < s5.Length; i++)
     {
         System.Console.Write(s5[s5.Length - i - 1]);
+        
     }
-
+    System.Console.WriteLine();
+    string tempString =String.Empty;
     foreach (var aChar in s5.Reverse())
     {
-        Console.Write(aChar);
+        tempString += aChar;
     }
+
+    DateTime independenceDay = Convert.ToDateTime("07/04/1976",new CultureInfo("en-GB"));
+    DateTime myDob = new DateTime(1975, 7, 15);
+    DateTime result = myDob.AddYears(20);
+    DateTime result2 = myDob.AddMonths(300);
+    DateTime today = DateTime.Today;
+    TimeSpan howOldAmI = today.Subtract(myDob);
+    Console.WriteLine($"I am {howOldAmI.TotalDays} days old.");
+    DateTime aBadDay = today.Add(howOldAmI);
+    Console.WriteLine($"{aBadDay:D} is a bad day.");
+    
+    if (DateTime.TryParse("15/07/1975", new CultureInfo("en-GB"), out DateTime myDob2))
+    {
+        Console.WriteLine(myDob2.ToString(new CultureInfo("en-US")));
+    }
+
+    var culture1 = new CultureInfo("en-US");
+    var culture2 = new CultureInfo("en-GB");
+    var culture3 = new CultureInfo("es-ES");
+
+
+    Console.WriteLine($"{"Culture Name",-20}|Calendar");
+    foreach (CultureInfo item in CultureInfo.GetCultures(CultureTypes.AllCultures))
+    {
+        Console.WriteLine($"{item.Name,-20}|{item.Calendar}");
+    }
+   ;
+
+    Console.WriteLine(independenceDay.ToString("F",new CultureInfo("es-ES")));
+    
+
+
+
 }
 
 class Demo {
@@ -164,5 +258,17 @@ class Demo {
     {
         int k = 0;
         Console.WriteLine("This is C");
+    }
+}
+
+class Person : IComparable
+{
+    public int Age { get; set; }
+    public string Name { get; set; }
+
+    public int CompareTo(object? otherGuy)
+    {
+        Person p = otherGuy as Person;
+        return this.Name.CompareTo(p.Name);
     }
 }
