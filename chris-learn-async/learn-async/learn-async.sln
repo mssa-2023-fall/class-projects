@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncFileHasher", "SyncFileHasher\SyncFileHasher.csproj", "{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFiles", "SmartFiles\SmartFiles.csproj", "{04292782-D036-43FB-B37D-D8EDC30DEE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90F8BE51-AB38-4B77-86FB-D3C8B945D838}
+	EndGlobalSection
+EndGlobal
