@@ -1,4 +1,9 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System;
+using System.Collections.Immutable;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+
+Console.WriteLine("Hello, World!");
 //int age = 50;
 Console.WriteLine($"{int.MaxValue},{int.MinValue}");
 Console.WriteLine($"{ushort.MaxValue}, {ushort.MinValue}");
@@ -26,11 +31,48 @@ Console.WriteLine();
 
 StringDemo();
 
+/*
+bool x = default;
+int y = default;
+DateTime d = default;
+d.AddDays(-100);
+Console.WriteLine(x);
+
+*/
+
+//Enum
+if (DateTime.Now.DayOfWeek == DayOfWeek.Tuesday)
+{
+    Console.WriteLine("Today is Tuesday");
+}
+
+
+
+
 Console.ReadLine();
 
 //Demonstration of the stack working through its (LAST IN, FIRST OUT) basis.
 //(In order) A calls B, B calls C, C calls B, B calls A, output.
 
+
+
+/*
+//Interfaces
+InterfaceDemo();
+void InterfaceDemo()
+{
+    Person[] ppl = {
+        new Person { Age = 30, Name = "Bob" }, 
+        new Person { Age = 20, Name = "Alice" }, 
+        new Person { Age = 22, Name = "Jorge" } }; 
+    Array.Sort(IComparable(ppl));
+}
+
+Array IComparable(Person[] ppl)
+{
+    throw new NotImplementedException();
+}
+*/
 void StringDemo()
 {
     string testString = "abc";
@@ -96,9 +138,46 @@ void StringDemo()
     {
         Console.Write(s5[s5.Length - i - 1]);
     }
+    Console.WriteLine();
+    string temptString = string.Empty;
+    foreach (var aChar in s5.Reverse())
+    {
+        temptString += aChar;
+    }
 
+    DateTime independenceDay = Convert.ToDateTime("07/04/1976", new CultureInfo("en-GB"));
+    DateTime myDob = new DateTime(1975, 7, 15);
+    DateTime result = myDob.AddYears(20);
+    DateTime result2 = myDob.AddYears(300);
+    DateTime today = DateTime.Today;
+    TimeSpan howOldAmIToday = today.Subtract(myDob);
+    Console.WriteLine();
+    Console.WriteLine($"I am {howOldAmIToday.TotalDays} days old.");
+    Console.WriteLine();
+    Console.WriteLine($"How old am I? {howOldAmIToday} <-");
+    DateTime aBadDay = today.Add(howOldAmIToday);
+    Console.WriteLine();
+    Console.WriteLine($"{aBadDay:d} is a bad day.");
 
+    //TROUBLESHOOTING DATETIME
+    if (DateTime.TryParse("07/15/1975", /*OUT means a new variable*/ out DateTime myDob2))
+    {
+        Console.WriteLine("It is a valid STRING for DATETIME");
+    }
+    var culture1 = new CultureInfo("en-US");
+    Console.WriteLine(result);
+
+    /*
+    Console.WriteLine($"{"Culture Name", -20} | Calendar ");
+    foreach (CultureInfo item in CultureInfo.GetCultures(CultureTypes.AllCultures)
+    {
+
+    }
+    */
+
+    
 }
+
 
 class Demo
 {
@@ -126,3 +205,9 @@ class Demo
     }
 }
 
+class Person
+{
+    public int Age { get; set; }
+
+    public string Name { get; set; }
+}
