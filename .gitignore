@@ -1,12 +1,10 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
 
 # User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.editorconfig
 
 # Build results
 [Dd]ebug/
@@ -23,8 +21,10 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
+
 # Visual Studio 2015
 .vs/
+.vs/*
 *.vsidx
 *.vsidx
 *.cache
@@ -34,16 +34,7 @@ msbuild.wrn
 /.vs/class-projects/FileContentIndex/read.lock
 /.vs/class-projects/v17/.wsuo
 /.vs/slnx.sqlite
-<<<<<<< HEAD
-/.vs/class-projects/FileContentIndex/read.lock
-=======
+slnx.sqlite
+read.lock
 /.vs/VSWorkspaceState.json
-<<<<<<< HEAD
->>>>>>> finished the testing of generic Filter method and start another exercise to turn multiple foreach print logic in to generic method. Here we learn the difference between Action Delegate and Func Delegate
-/victor-learn-async/SyncFileHash/SyncFileHash/obj/Debug/net7.0/SyncFileHash.GeneratedMSBuildEditorConfig.editorconfig
-/victor-learn-async/SmartFiles/obj/Debug/net6.0/SmartFiles.GeneratedMSBuildEditorConfig.editorconfig
-/victor-learn-async/AsyncFileHasher/obj/Debug/net6.0/AsyncFileHasher.GeneratedMSBuildEditorConfig.editorconfig
-=======
-/victor-learn-async/SmartFiles/obj/Debug/net6.0/SmartFiles.GeneratedMSBuildEditorConfig.editorconfig
->>>>>>> resolve more contflicts from VS generated files
-/victor-learn-async/SmartFiles/obj/Release/net6.0/SmartFiles.GeneratedMSBuildEditorConfig.editorconfig
+
