@@ -1,0 +1,4 @@
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\SmartFile\obj\Debug\net6.0\SmartFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\SmartFile\obj\Debug\net6.0\SmartFile.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\SmartFile\obj\Debug\net6.0\SmartFile.AssemblyInfo.cs
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\SmartFile\obj\Debug\net6.0\SmartFile.csproj.CoreCompileInputs.cache

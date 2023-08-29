@@ -1,0 +1,4 @@
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\DelegateAndExtensionMethods\obj\Debug\net6.0\DelegateAndExtensionMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\DelegateAndExtensionMethods\obj\Debug\net6.0\DelegateAndExtensionMethods.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\DelegateAndExtensionMethods\obj\Debug\net6.0\DelegateAndExtensionMethods.AssemblyInfo.cs
+C:\Users\John\source\repos\class-projects\john\SyncFileHasher\DelegateAndExtensionMethods\obj\Debug\net6.0\DelegateAndExtensionMethods.csproj.CoreCompileInputs.cache
