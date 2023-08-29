@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SmartFile\SmartFile.csproj" />
+    <ProjectReference Include="..\SmartFiles\SmartFiles.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using SmartFiles;
+using System.Collections.Concurrent;
 using System.Diagnostics;
 
 string[] AllFiles = Directory.GetFiles("C:\\Repos\\class-projects\\SampleText\\");
@@ -12,19 +13,22 @@ string[] AllFiles = Directory.GetFiles("C:\\Repos\\class-projects\\SampleText\\"
 //6- when all 100 loops finishes, call Task.WhenAll(List<Task>)
 //7- Stop and print elapsed time
 
-List<Task> listOfComputeHashTask = new();
-
+ConcurrentBag<Task> listOfComputeHashTask = new();
 Stopwatch sw = Stopwatch.StartNew();
-for (int i = 0; i < 100; i++)
+Parallel.For(0, 100, (int i) =>
 {
-    foreach (string filePath in AllFiles)
+    //Console.WriteLine($"Loop number {i} started");
     {
-        SmartFile smartFile = new SmartFile(filePath);
-        Task<string> aTask = smartFile.GetHashStringAsync();
-        listOfComputeHashTask.Add(aTask);
+        foreach (string filePath in AllFiles)
+        {
+            SmartFile smartFile = new SmartFile(filePath);
+            Task<string> aTask = smartFile.GetHashStringAsync();
+            listOfComputeHashTask.Add(aTask);
+        }
     }
-}
+});
 await Task.WhenAll(listOfComputeHashTask);
 sw.Stop();
-
+Console.ReadLine();
+Console.Clear();
 Console.WriteLine($"Elapse Time with {listOfComputeHashTask.Count} async calls:{sw.ElapsedMilliseconds} ms");

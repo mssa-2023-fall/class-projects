@@ -1,73 +1,54 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "SmartFiles/1.0.0": {
+    "net6.0": {
+      "SmartFile/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/SmartFiles.dll": {}
+          "bin/placeholder/SmartFile.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SmartFiles.dll": {}
-        }
-      },
-      "SyncFileHasher/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "SmartFiles": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SyncFileHasher.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SyncFileHasher.dll": {}
+          "bin/placeholder/SmartFile.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SmartFiles/1.0.0": {
+    "SmartFile/1.0.0": {
       "type": "project",
-      "path": "../SmartFiles/SmartFiles.csproj",
-      "msbuildProject": "../SmartFiles/SmartFiles.csproj"
-    },
-    "SyncFileHasher/1.0.0": {
-      "type": "project",
-      "path": "../SyncFileHasher/SyncFileHasher.csproj",
-      "msbuildProject": "../SyncFileHasher/SyncFileHasher.csproj"
+      "path": "../SmartFile/SmartFile.csproj",
+      "msbuildProject": "../SmartFile/SmartFile.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "SmartFiles >= 1.0.0",
-      "SyncFileHasher >= 1.0.0"
+    "net6.0": [
+      "SmartFile >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lol4l\\.nuget\\packages\\": {},
+    "C:\\Users\\crodr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
+      "projectUniqueName": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
       "projectName": "AsyncFileHasher",
-      "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
-      "packagesPath": "C:\\Users\\lol4l\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\obj\\",
+      "projectPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
+      "packagesPath": "C:\\Users\\crodr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lol4l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -75,14 +56,11 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj": {
-              "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj"
-            },
-            "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj": {
-              "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj"
+            "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj": {
+              "projectPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj"
             }
           }
         }
@@ -94,8 +72,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",

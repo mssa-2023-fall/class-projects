@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34018.315
+VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncFileHasher", "SyncFileHasher\SyncFileHasher.csproj", "{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncFileHasher", "SyncFileHasher\SyncFileHasher.csproj", "{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFiles", "SmartFiles\SmartFiles.csproj", "{04292782-D036-43FB-B37D-D8EDC30DEE9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFile", "SmartFile\SmartFile.csproj", "{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFileHasher", "AsyncFileHasher\AsyncFileHasher.csproj", "{1F29DE85-3E0B-49DF-A50C-9BC9C75D5DAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFileHasher", "AsyncFileHasher\AsyncFileHasher.csproj", "{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelAsyncFileHasher", "ParallelAsyncFileHasher\ParallelAsyncFileHasher.csproj", "{3F219EC4-CC6D-4873-ADDD-00D307206731}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCAABF45-025C-456C-A713-A5A5FEEB6AA8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04292782-D036-43FB-B37D-D8EDC30DEE9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F29DE85-3E0B-49DF-A50C-9BC9C75D5DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F29DE85-3E0B-49DF-A50C-9BC9C75D5DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F29DE85-3E0B-49DF-A50C-9BC9C75D5DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F29DE85-3E0B-49DF-A50C-9BC9C75D5DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {90F8BE51-AB38-4B77-86FB-D3C8B945D838}
+		SolutionGuid = {5436106C-98ED-4048-8A42-9951DD551A5B}
 	EndGlobalSection
 EndGlobal

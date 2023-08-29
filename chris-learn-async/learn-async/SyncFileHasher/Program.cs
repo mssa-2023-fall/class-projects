@@ -1,26 +1,27 @@
 ﻿using SmartFiles;
 using System.Diagnostics;
+// See https://aka.ms/new-console-template for more information
 
-var testFilePath = "C:\\Users\\crodr\\source\\repos\\class-projects\\SampleText\\12370.txt";
+var testFilePath = "C:\\Repos\\class-projects\\SampleText\\12370.txt";
 var testFile = new SmartFile(testFilePath);
 Console.WriteLine(testFile.HashString);
-var AllFiles = Directory.GetFiles("C:\\Users\\crodr\\source\\repos\\class-projects\\SampleText\\");
-//write a for each statement to iterate through files 1 at a time to construict SmartFile and print out its hash
+var AllFiles = Directory.GetFiles("C:\\Repos\\class-projects\\SampleText\\");
+//write a for each statement to iterate through files 1 at a time to construct SmartFile and print out its hash
 
-//1. Create StopWatch class and start it.
-//2. Create 100 loop using for loop.
-//3. In each loop compute all file hashes synchronously
-//4. Out of the 100 loop, stop the stopwatch.
-//5. Print out the elapsed time from stopwatch.
-
+//1. Create a StopWatch class and start it
+//2. Create 100 Loop using for loop
+//3. in each loop compute all file hashes syncronously
+//4. out of the 100 loop, stop the stop watch
+//5. print out the elapsed time from stop watch
 Stopwatch sw = Stopwatch.StartNew();
 for (int i = 0; i < 100; i++)
 {
     foreach (var fileName in AllFiles)
     {
         var _temp = new SmartFile(fileName);
-        Console.WriteLine($"{_temp.File.Name,-30} - {_temp.HashString}");
+        Console.WriteLine($"{_temp.File.Name,-30} - {_temp.GetHashString()}");
     }
 }
+
 sw.Stop();
-Console.WriteLine($"Elapsed time {sw.ElapsedMilliseconds}");
+Console.WriteLine($"Elapse Time with Sync calls:{sw.ElapsedMilliseconds} ms");

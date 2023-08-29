@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj": {}
+    "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj": {
+    "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
+        "projectUniqueName": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
         "projectName": "AsyncFileHasher",
-        "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
-        "packagesPath": "C:\\Users\\lol4l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\obj\\",
+        "projectPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\AsyncFileHasher.csproj",
+        "packagesPath": "C:\\Users\\crodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\AsyncFileHasher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lol4l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,14 +30,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj": {
-                "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj"
-              },
-              "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj": {
-                "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj"
+              "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj": {
+                "projectPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj"
               }
             }
           }
@@ -49,8 +46,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -71,25 +68,25 @@
         }
       }
     },
-    "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj": {
+    "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj",
-        "projectName": "SmartFiles",
-        "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj",
-        "packagesPath": "C:\\Users\\lol4l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\obj\\",
+        "projectUniqueName": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj",
+        "projectName": "SmartFile",
+        "projectPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\SmartFile.csproj",
+        "packagesPath": "C:\\Users\\crodr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crodr\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lol4l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -97,8 +94,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -109,72 +106,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj",
-        "projectName": "SyncFileHasher",
-        "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\SyncFileHasher.csproj",
-        "packagesPath": "C:\\Users\\lol4l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SyncFileHasher\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\lol4l\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj": {
-                "projectPath": "C:\\Users\\lol4l\\source\\repos\\class-projects\\chris-learn-async\\learn-async\\SmartFiles\\SmartFiles.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
