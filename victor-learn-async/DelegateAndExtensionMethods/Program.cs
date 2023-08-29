@@ -19,24 +19,25 @@ internal class Program
         }
                 
         List<SmartFile> bigFiles = Filter<SmartFile>(allSmartFiles,(sf)=> sf.File.Length>300*1024);
-        ProcessList(bigFiles, (aFile) => Console.WriteLine($"{aFile.File.FullName} has {aFile.File.Length} bytes of data"));
+        //ProcessList(bigFiles, (aFile) => Console.WriteLine($"{aFile.File.FullName} has {aFile.File.Length} bytes of data"));
+        bigFiles.ProcessList((aFile) => Console.WriteLine($"{aFile.File.FullName} has {aFile.File.Length} bytes of data"));
         // static void ProcessList(List<SmartFile> inputList, Action<SmartFile> actionToPerform)
         // we will be using this method to replace the repetitious foreach loop below
-        
+
         List<SmartFile> filesWithNumericStart = Filter<SmartFile>(allSmartFiles,
             (sf)=> {
                 string initialLetter = sf.File.Name.Substring(0, 1);
                 return int.TryParse(initialLetter, out int x);
                 }
             );
-        ProcessList(bigFiles, (aFile) => Console.WriteLine($"{aFile.File.FullName} has initial letter that is a number"));
-
+        //ProcessList(filesWithNumericStart, (aFile) => Console.WriteLine($"{aFile.File.FullName} has initial letter that is a number"));
+        filesWithNumericStart.ProcessList((aFile) => Console.WriteLine($"{aFile.File.FullName} has initial letter that is a number"));
+        
         StreamReader sr = filesWithNumericStart[0].File.OpenText();
         List<string> lines = new List<string>(sr.ReadToEnd().Split(new char[] { '\n' }));
-
-        
+                
         var resultLines = Filter<string>(lines, l => l.Length > 20);
-        ProcessList(resultLines, (aLine) => Console.WriteLine(aLine));
+        resultLines.ProcessList((aLine) => Console.WriteLine(aLine));
     }
 
     private static void ProcessList<T>(List<T> inputList, Action<T> actionToPerform)
@@ -75,11 +76,3 @@ internal class Program
     }
 }
 
-
-void methodName(param1, param2, param3)
-returntype methodName(param1, param2) //model Func
-
-    // accept a SmartFile and return a boolean
-    bool SomeMethd(SmartFile file) { //logic}
-
-    (aFile) => aFile.File.Length>100
