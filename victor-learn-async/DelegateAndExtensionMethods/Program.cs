@@ -43,6 +43,12 @@ internal class Program
         foreach (var line in resultLines) { Console.WriteLine(line); }
     }
 
+    private static void ProcessList<T>(List<T> inputList, Action<T> actionToPerform)
+    {
+        foreach (var item in inputList)
+        { actionToPerform.Invoke(item); }
+    }
+
     /// <summary>
     /// this makes multiple versions of Filter method obsolete
     /// We use a Func<T1,T2> as contract so the caller will provide a method implementation that accepts T1 and return T2
