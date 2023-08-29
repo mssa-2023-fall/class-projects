@@ -3,7 +3,7 @@ using SmartFiles;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 
-string[] AllFiles = Directory.GetFiles("C:\\Repos\\class-projects\\SampleText\\");
+string[] AllFiles = Directory.GetFiles("C:\\Users\\crodr\\source\\repos\\class-projects\\SampleText");
 //1-create a List<Task> called listOfComputeHashTask, use default constructor to initialize
 //start the stop watch...
 //2-create 100 iter for loop

@@ -2,10 +2,10 @@
 using System.Diagnostics;
 // See https://aka.ms/new-console-template for more information
 
-var testFilePath = "C:\\Repos\\class-projects\\SampleText\\12370.txt";
+var testFilePath = "C:\\Users\\crodr\\source\\repos\\class-projects\\SampleText\\12370.txt";
 var testFile = new SmartFile(testFilePath);
 Console.WriteLine(testFile.HashString);
-var AllFiles = Directory.GetFiles("C:\\Repos\\class-projects\\SampleText\\");
+var AllFiles = Directory.GetFiles("C:\\Users\\crodr\\source\\repos\\class-projects\\SampleText");
 //write a for each statement to iterate through files 1 at a time to construct SmartFile and print out its hash
 
 //1. Create a StopWatch class and start it
