@@ -34,4 +34,11 @@ msbuild.wrn
 /.vs/class-projects/FileContentIndex/read.lock
 /.vs/class-projects/v17/.wsuo
 /.vs/slnx.sqlite
+<<<<<<< HEAD
 /.vs/class-projects/FileContentIndex/read.lock
+=======
+/.vs/VSWorkspaceState.json
+>>>>>>> finished the testing of generic Filter method and start another exercise to turn multiple foreach print logic in to generic method. Here we learn the difference between Action Delegate and Func Delegate
+/victor-learn-async/SyncFileHash/SyncFileHash/obj/Debug/net7.0/SyncFileHash.GeneratedMSBuildEditorConfig.editorconfig
+/victor-learn-async/SmartFiles/obj/Debug/net6.0/SmartFiles.GeneratedMSBuildEditorConfig.editorconfig
+/victor-learn-async/AsyncFileHasher/obj/Debug/net6.0/AsyncFileHasher.GeneratedMSBuildEditorConfig.editorconfig
