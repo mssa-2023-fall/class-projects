@@ -2,6 +2,8 @@
 
 
 using SmartFiles;
+using System.ComponentModel.DataAnnotations;
+using System.Reflection.Metadata.Ecma335;
 
 internal class Program
 {
@@ -31,8 +33,10 @@ internal class Program
 
         StreamReader sr = filesWithNumericStart[0].File.OpenText();
         List<string> lines = new List<string>(sr.ReadToEnd().Split(new char[] { '\n' }));
+
+        
         var resultLines = Filter<string>(lines, l => l.Length > 20);
-        ProcessList(resultLines, (aLine) => Console.WriteLine());
+        ProcessList(resultLines, (aLine) => Console.WriteLine(aLine));
     }
 
     private static void ProcessList<T>(List<T> inputList, Action<T> actionToPerform)
@@ -70,3 +74,12 @@ internal class Program
         return result;
     }
 }
+
+
+void methodName(param1, param2, param3)
+returntype methodName(param1, param2) //model Func
+
+    // accept a SmartFile and return a boolean
+    bool SomeMethd(SmartFile file) { //logic}
+
+    (aFile) => aFile.File.Length>100
