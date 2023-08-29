@@ -22,7 +22,6 @@ internal class Program
             .Filter((sf)=> sf.File.Length>300*1024)
             .ProcessList((aFile) => Console.WriteLine($"{aFile.File.FullName} has {aFile.File.Length} bytes of data"));
         //ProcessList(bigFiles, (aFile) => Console.WriteLine($"{aFile.File.FullName} has {aFile.File.Length} bytes of data"));
-
         // static void ProcessList(List<SmartFile> inputList, Action<SmartFile> actionToPerform)
         // we will be using this method to replace the repetitious foreach loop below
 
