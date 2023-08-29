@@ -33,6 +33,9 @@ internal class Program
 
             StreamReader sr = filesWithNumbersStart[0].File.OpenText();
             List<string> lines = new List<string>(sr.ReadToEnd().Split(new char[] { '\n' }));
+
+        lines.Where(l => l.Length > 20).OrderBy(l => l.Length).Select((l, i) => new {Length=l.Length, l });
+
             var resultLines = Filter<string>(lines, l => l.Length > 20);
             PrintList(resultLines, (afile) => Console.WriteLine());
 
