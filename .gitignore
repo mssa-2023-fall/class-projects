@@ -40,3 +40,4 @@ msbuild.wrn
 /.vs/VSWorkspaceState.json
 /.vs/class-projects/FileContentIndex/read.lock
 /.vs/class-projects/v17/.wsuo
+/.vs/slnx.sqlite
