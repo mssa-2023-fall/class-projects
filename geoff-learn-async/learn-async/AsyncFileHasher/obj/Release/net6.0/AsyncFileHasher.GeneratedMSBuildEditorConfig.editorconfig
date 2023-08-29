@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AsyncFileHasher
-build_property.ProjectDir = C:\Source\Repos\mssa-2023-fall\class-projects\Victor-Learn-Async\learn-async\AsyncFileHasher\
+build_property.ProjectDir = C:\Source\Repos\mssa-2023-fall\class-projects\geoff-learn-async\learn-async\AsyncFileHasher\
