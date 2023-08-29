@@ -1,19 +1,10 @@
-﻿
-
-*.swp
-*.*~
-project.lock.json
-.DS_Store
-*.pyc
-
-# Visual Studio Code
-.vscode
 
 # User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.editorconfig
 
 # Build results
 [Dd]ebug/
@@ -30,8 +21,10 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
+
 # Visual Studio 2015
 .vs/
+.vs/*
 *.vsidx
 *.vsidx
 *.cache
@@ -41,4 +34,7 @@ msbuild.wrn
 /.vs/class-projects/FileContentIndex/read.lock
 /.vs/class-projects/v17/.wsuo
 /.vs/slnx.sqlite
+slnx.sqlite
+read.lock
 /.vs/VSWorkspaceState.json
+
