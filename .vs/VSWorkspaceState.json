@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\chris-learn-async",
+    "\\leo-learn-async",
+    "\\leo-learn-async\\DelegateAndExtensionMethods",
+    "\\leo-learn-async\\learn-async\\AsyncFileHasher",
+    "\\leo-learn-async\\learn-async\\SmartFiles",
+    "\\leo-learn-async\\learn-async\\SyncFileHasher",
+    "\\victor"
   ],
+  "SelectedNode": "\\leo-learn-async",
   "PreviewInSolutionExplorer": false
 }
