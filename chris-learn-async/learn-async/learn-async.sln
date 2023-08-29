@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncFileHasher", "SyncFileHasher\SyncFileHasher.csproj", "{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncFileHasher", "SyncFileHasher\SyncFileHasher.csproj", "{E0635F2B-828E-44A8-B3A6-45B4DEB50EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFile", "SmartFile\SmartFile.csproj", "{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartFile", "SmartFile\SmartFile.csproj", "{A6D5FE80-D4AE-4927-BC9A-BD1104847C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncFileHasher", "AsyncFileHasher\AsyncFileHasher.csproj", "{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncFileHasher", "AsyncFileHasher\AsyncFileHasher.csproj", "{2EBAAE60-D61B-4914-AEA9-6CAE243E4B8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelAsyncFileHasher", "ParallelAsyncFileHasher\ParallelAsyncFileHasher.csproj", "{3F219EC4-CC6D-4873-ADDD-00D307206731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelAsyncFileHasher", "ParallelAsyncFileHasher\ParallelAsyncFileHasher.csproj", "{3F219EC4-CC6D-4873-ADDD-00D307206731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndExtensionMethod", "DelegateAndExtensionMethod\DelegateAndExtensionMethod.csproj", "{F87FF2BB-D587-4206-A8CB-4C9684D49034}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F219EC4-CC6D-4873-ADDD-00D307206731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87FF2BB-D587-4206-A8CB-4C9684D49034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87FF2BB-D587-4206-A8CB-4C9684D49034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87FF2BB-D587-4206-A8CB-4C9684D49034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87FF2BB-D587-4206-A8CB-4C9684D49034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
