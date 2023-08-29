@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SyncFileHasher/1.0.0": {
+        "dependencies": {
+          "SmartFile": "1.0.0"
+        },
+        "runtime": {
+          "SyncFileHasher.dll": {}
+        }
+      },
+      "SmartFile/1.0.0": {
+        "runtime": {
+          "SmartFile.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SyncFileHasher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartFile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

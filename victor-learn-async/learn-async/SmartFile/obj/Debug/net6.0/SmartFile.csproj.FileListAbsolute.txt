@@ -1,0 +1,12 @@
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\bin\Debug\net6.0\SmartFile.deps.json
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\bin\Debug\net6.0\SmartFile.dll
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\bin\Debug\net6.0\SmartFile.pdb
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.csproj.AssemblyReference.cache
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.AssemblyInfoInputs.cache
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.AssemblyInfo.cs
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.csproj.CoreCompileInputs.cache
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.dll
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\refint\SmartFile.dll
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\SmartFile.pdb
+C:\Repos\class-projects\victor-learn-async\learn-async\SmartFile\obj\Debug\net6.0\ref\SmartFile.dll
