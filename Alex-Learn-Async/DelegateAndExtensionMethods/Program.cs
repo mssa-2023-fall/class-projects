@@ -9,9 +9,7 @@ internal class Program
     private static void Main(string[] args)
     {
         var AllFiles = Directory.GetFiles("C:\\Users\\aleja_a1mv85h\\source\\repos\\class-projects\\SampleText\\");
-
         List<SmartFile> allSmartFiles = new List<SmartFile>();
-
         foreach (var fileName in AllFiles)
         {
             allSmartFiles.Add(new SmartFile(fileName));
@@ -19,26 +17,26 @@ internal class Program
 
         List<SmartFile> bigFiles = Filter<SmartFile>(allSmartFiles,(sf)=>sf.File.Length>300*1024);
         PrintList(bigFiles, (afile) => Console.WriteLine($"{afile.File.FullName} has {afile.File.Length} bytes of data"));
+        bigFiles.PrintList((afile) => Console.WriteLine($"{afile.File.FullName} has {afile.File.Length} bytes of data"));
+        // static void PrintList(List<T> inputList, Action<T>
 
-            // static void PrintList(List<T> inputList, Action<T>
-
-            List<SmartFile> filesWithNumbersStart = Filter<SmartFile>(allSmartFiles,
+        List<SmartFile> filesWithNumbersStart = Filter<SmartFile>(allSmartFiles,
                 (sf) =>
                 {
                     string initialLetter = sf.File.Name.Substring(0, 1);
                     return int.TryParse(initialLetter, out int x);
                 }
                 );
-            PrintList(bigFiles, (afile) => Console.WriteLine($"{afile.File.FullName} has initial letter that is a number."));
+            PrintList(filesWithNumbersStart, (afile) => Console.WriteLine($"{afile.File.FullName} has initial letter that is a number."));
+            filesWithNumbersStart.PrintList((afile) => Console.WriteLine($"{afile.File.FullName} has initial letter that is a number."));
 
             StreamReader sr = filesWithNumbersStart[0].File.OpenText();
             List<string> lines = new List<string>(sr.ReadToEnd().Split(new char[] { '\n' }));
 
         lines.Where(l => l.Length > 20).OrderBy(l => l.Length).Select((l, i) => new {Length=l.Length, l });
 
-            var resultLines = Filter<string>(lines, l => l.Length > 20);
+            var resultLines = Filter<string>(lines, l => l.Length > 20); //Turn Filter into extention Method
             PrintList(resultLines, (afile) => Console.WriteLine());
-
         }
 
     private static void PrintList<T>(List<T> inputList, Action<T> actionToPerform)
