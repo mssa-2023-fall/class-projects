@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\chris-learn-async",
+    "\\chris-learn-async\\AzureQueue"
   ],
-  "SelectedNode": "\\learn-async.sln (victor-learn-async\\learn-async\\learn-async.sln)",
+  "SelectedNode": "\\chris-learn-async\\AzureQueue",
   "PreviewInSolutionExplorer": false
 }
